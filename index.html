@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velaxor</title>
+    <meta name="description" content="Velaxor is an independent game studio building offline-first mobile strategy games.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="wrap">
+        <a class="brand" href="#top">Vel<span>a</span>xor</a>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#games">Games</a>
+            <a href="#join">Stay updated</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" id="top">
+    <div class="wrap">
+        <h1 class="headline">Independent games, built to work <em>without a connection.</em></h1>
+        <p class="sub">Velaxor is a small studio making mobile strategy games that don't need wifi, servers, or an internet connection to be worth playing. Our first title is in active development.</p>
+    </div>
+    <p class="hero-caption">Reference art from the <a href="https://play0ad.com/" target="_blank" rel="noopener">0 A.D.</a> project (CC BY-SA 3.0) &mdash; the visual foundation Avarra's world is being built from.</p>
+</header>
+
+<section id="games" class="tight">
+    <div class="wrap">
+        <div class="section-head">
+            <h2>Currently in development</h2>
+        </div>
+        <a class="game-card" href="avarra.html">
+            <div class="info">
+                <span class="status-tag">In development</span>
+                <h3>Avarra: Kingdoms at War</h3>
+                <p>An offline mobile RTS — full details, screenshots, and early clips coming soon as the game takes shape.</p>
+            </div>
+            <span class="game-card-cta">View details &rsaquo;</span>
+        </a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="wrap">
+        <div class="section-head">
+            <h2>What we're building toward</h2>
+            <p>Velaxor is a solo-founded studio right now — every design and technical decision starts from the same question: does this still work with no signal at all?</p>
+        </div>
+        <div class="principles">
+            <div class="principle">
+                <h3>Offline by design</h3>
+                <p>No always-on servers, no forced logins. Games that work the same on a plane as they do at home.</p>
+            </div>
+            <div class="principle">
+                <h3>Built for touch</h3>
+                <p>Controls designed around a phone from the start, not a desktop game shrunk down to fit a smaller screen.</p>
+            </div>
+            <div class="principle">
+                <h3>Fair, not predatory</h3>
+                <p>Monetization that speeds things up if you want it to — never a wall that decides whether you can keep playing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="join" class="tight">
+    <div class="wrap">
+        <div class="copy">
+            <h2>Follow the studio</h2>
+            <p>Subscribe for updates as our first game comes together — no spam, just real progress.</p>
+        </div>
+        <div class="form-col">
+            <form class="signup-form" id="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="email" class="visually-hidden">Email address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p class="form-note" id="form-note">We'll only email you when there's something real to share.</p>
+            <p class="form-success" id="form-success">You're on the list — thanks for following along.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="wrap">
+        <span>Velaxor</span>
+        <span>&copy; <span id="year"></span> Velaxor. All rights reserved.</span>
+    </div>
+</footer>
+<div class="lightbox-overlay" id="lightbox">
+    <img src="" alt="" id="lightbox-img">
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
