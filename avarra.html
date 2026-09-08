@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avarra: Kingdoms at War — Velaxor</title>
+    <meta name="description" content="Avarra: Kingdoms at War — an offline mobile RTS from Velaxor. Build your economy, command your armies, outlast the AI. No signal required.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-$END$
-</body>
+<body class="avarra-page">
+
+<nav>
+    <div class="wrap">
+        <a class="brand" href="index.html">Vel<span>a</span>xor</a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html#join">Stay updated</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" id="top">
+    <div class="wrap">
+        <span class="status-tag">In development</span>
+        <h1 class="headline">Avarra: <em>Kingdoms at War</em></h1>
+        <p class="sub">An offline mobile RTS — gather resources, raise an army, and outlast four AI-controlled kingdoms with nothing but your own strategy. No wifi, no lag, no server to keep alive.</p>
+    </div>
+    <p class="hero-caption">Reference art from the <a href="https://play0ad.com/" target="_blank" rel="noopener">0 A.D.</a> project (CC BY-SA 3.0) &mdash; the visual foundation Avarra's world is being built from. Real gameplay screenshots coming as development progresses.</p>
+</header>
+<section id="join" class="tight">
+    <div class="wrap">
+        <div class="copy">
+            <h2>COMING SOON </h2>
+            <p>Subscribe and you'll see real progress clips before anyone else, plus first access when the beta opens.</p>
+        </div>
+        <div class="form-col">
+            <form class="signup-form" id="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="email" class="visually-hidden">Email address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                <button type="submit">Get early access</button>
+            </form>
+            <p class="form-note" id="form-note">No spam — just real updates as the game comes together.</p>
+            <p class="form-success" id="form-success">You're on the list. We'll be in touch when the beta opens.</p>
+        </div>
+    </div>
+</section>
+
+<section id="progress" class="tight">
+    <div class="wrap">
+        <div class="section-head">
+            <h2>Where things stand</h2>
+            <p>Avarra is being built solo, in public phases. Here's what's real so far.</p>
+        </div>
+
+        <div class="clip-strip">
+            <div class="clip-slot">
+                <img src="Assets/img.png" alt="Camera & terrain reveal">
+                <!-- <span>Camera &amp; terrain reveal — clip coming soon</span> -->
+            </div>
+            <div class="clip-slot">
+                <img src="Assets/img_1.png" alt="Army select & combat">
+                <!--<span>Army select &amp; combat — clip coming soon</span> -->
+            </div>
+            <div class="clip-slot">
+                <img src="Assets/img_2.png" alt="AI kingdom in action">
+                <!-- <span>AI kingdom in action — clip coming soon</span> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="overview">
+    <div class="wrap">
+        <div class="section-head">
+            <h2>A kingdom that runs while you're offline</h2>
+            <p>Everything in Avarra is built around one constraint: it has to work with no connection at all. That shaped the whole game, not just the tech.</p>
+        </div>
+
+        <div class="principles">
+            <div class="principle">
+                <h3>Auto-gather economy</h3>
+                <p>One tap sends every idle villager to the nearest wood, stone, or food source. Less time managing menus, more time managing a war.</p>
+            </div>
+            <div class="principle">
+                <h3>AI kingdoms, not bots on rails</h3>
+                <p>Up to three opposing kingdoms build, expand, and attack on their own state-driven logic — economy, then military, then war. Difficulty comes from how fast they grow, not scripted cheating.</p>
+            </div>
+            <div class="principle">
+                <h3>25+ hand-built battlegrounds</h3>
+                <p>Maps rebuilt from real ancient-warfare terrain — river crossings, hill forts, siege grounds — each one playable start to finish, offline.</p>
+            </div>
+            <div class="principle">
+                <h3>Built for a thumb, not a mouse</h3>
+                <p>Drag to select an army, double-tap to call in every soldier you own, hold for a quick-build wheel. Controls designed around a phone screen from day one.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<footer>
+    <div class="wrap footer-stack">
+        <div class="foot-top">
+            <span>Velaxor &mdash; Avarra: Kingdoms at War</span>
+            <span>&copy; <span id="year"></span> Velaxor. All rights reserved.</span>
+        </div>
+        <p class="attribution">
+            Built with art assets from the <a href="https://play0ad.com/" target="_blank" rel="noopener">0 A.D.</a> project, licensed under
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>. Modified assets used in Avarra are shared under the same license.
+            Additional UI assets from <a href="https://kenney.nl/" target="_blank" rel="noopener">Kenney.nl</a>.
+        </p>
+    </div>
+</footer>
+<div class="lightbox-overlay" id="lightbox">
+    <img src="" alt="" id="lightbox-img">
+</div>
+<script src="js/script.js"></script>
+
+</>
 </html>
